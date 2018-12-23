@@ -98,3 +98,9 @@ D:\Git\vs2017web_2018_1\LabFirst\cap01\Cibertec.UI.MVC\Cibertec.UI.MVC\obj\Debug
 D:\Git\vs2017web_2018_1\LabFirst\cap01\Cibertec.UI.MVC\Cibertec.UI.MVC\obj\Debug\Cibertec.UI.MVC.csproj.CopyComplete
 D:\Git\vs2017web_2018_1\LabFirst\cap01\Cibertec.UI.MVC\Cibertec.UI.MVC\obj\Debug\Cibertec.UI.MVC.dll
 D:\Git\vs2017web_2018_1\LabFirst\cap01\Cibertec.UI.MVC\Cibertec.UI.MVC\obj\Debug\Cibertec.UI.MVC.pdb
+D:\Git\vs2017web_2018_1\LabFirst\cap01\Cibertec.UI.MVC\Cibertec.UI.MVC\bin\EntityFramework.dll
+D:\Git\vs2017web_2018_1\LabFirst\cap01\Cibertec.UI.MVC\Cibertec.UI.MVC\bin\EntityFramework.SqlServer.dll
+D:\Git\vs2017web_2018_1\LabFirst\cap01\Cibertec.UI.MVC\Cibertec.UI.MVC\bin\log4net.dll
+D:\Git\vs2017web_2018_1\LabFirst\cap01\Cibertec.UI.MVC\Cibertec.UI.MVC\bin\EntityFramework.xml
+D:\Git\vs2017web_2018_1\LabFirst\cap01\Cibertec.UI.MVC\Cibertec.UI.MVC\bin\EntityFramework.SqlServer.xml
+D:\Git\vs2017web_2018_1\LabFirst\cap01\Cibertec.UI.MVC\Cibertec.UI.MVC\bin\log4net.xml

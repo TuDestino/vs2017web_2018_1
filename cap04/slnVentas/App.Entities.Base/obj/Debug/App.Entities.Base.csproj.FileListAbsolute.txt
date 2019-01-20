@@ -1,0 +1,11 @@
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Entities.Base\bin\Debug\App.Entities.Base.dll.config
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Entities.Base\bin\Debug\App.Entities.Base.dll
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Entities.Base\bin\Debug\App.Entities.Base.pdb
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Entities.Base\bin\Debug\EntityFramework.dll
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Entities.Base\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Entities.Base\bin\Debug\EntityFramework.xml
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Entities.Base\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Entities.Base\obj\Debug\App.Entities.Base.csproj.CoreCompileInputs.cache
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Entities.Base\obj\Debug\App.Entities.Base.csproj.CopyComplete
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Entities.Base\obj\Debug\App.Entities.Base.dll
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Entities.Base\obj\Debug\App.Entities.Base.pdb

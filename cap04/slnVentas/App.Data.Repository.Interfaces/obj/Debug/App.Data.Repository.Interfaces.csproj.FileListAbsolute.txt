@@ -1,0 +1,10 @@
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces\bin\Debug\App.Data.Repository.Interfaces.dll
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces\bin\Debug\App.Data.Repository.Interfaces.pdb
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces\bin\Debug\App.Entities.Base.dll
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces\bin\Debug\App.Entities.Base.pdb
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces\bin\Debug\App.Entities.Base.dll.config
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces\obj\Debug\App.Data.Repository.Interfaces.csprojAssemblyReference.cache
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces\obj\Debug\App.Data.Repository.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces\obj\Debug\App.Data.Repository.Interfaces.csproj.CopyComplete
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces\obj\Debug\App.Data.Repository.Interfaces.dll
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces\obj\Debug\App.Data.Repository.Interfaces.pdb

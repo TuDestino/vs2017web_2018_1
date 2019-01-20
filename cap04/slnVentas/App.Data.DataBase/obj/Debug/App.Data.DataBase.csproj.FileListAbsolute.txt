@@ -1,0 +1,15 @@
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Data.DataBase\bin\Debug\App.Data.DataBase.dll.config
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Data.DataBase\bin\Debug\App.Data.DataBase.dll
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Data.DataBase\bin\Debug\App.Data.DataBase.pdb
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Data.DataBase\bin\Debug\App.Entities.Base.dll
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Data.DataBase\bin\Debug\EntityFramework.dll
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Data.DataBase\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Data.DataBase\bin\Debug\App.Entities.Base.pdb
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Data.DataBase\bin\Debug\App.Entities.Base.dll.config
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Data.DataBase\bin\Debug\EntityFramework.xml
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Data.DataBase\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Data.DataBase\obj\Debug\App.Data.DataBase.csprojAssemblyReference.cache
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Data.DataBase\obj\Debug\App.Data.DataBase.csproj.CoreCompileInputs.cache
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Data.DataBase\obj\Debug\App.Data.DataBase.csproj.CopyComplete
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Data.DataBase\obj\Debug\App.Data.DataBase.dll
+C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Data.DataBase\obj\Debug\App.Data.DataBase.pdb

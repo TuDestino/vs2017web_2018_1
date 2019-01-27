@@ -1,4 +1,5 @@
-﻿using App.Data.Repository.Interfaces;
+﻿using App.Data.DataBase;
+using App.Data.Repository.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -14,21 +15,31 @@ namespace App.Data.Repository
 
         public ICategoriaRepository CategoriaRepository { get; set; }
 
+        public AppUnitOfWork()
+        {
+            _context = new AppModel();
+            CreateRepositories();
+        }
+
         public AppUnitOfWork(DbContext context)
         {
             _context = context;
+            CreateRepositories();
+        }
+        
+        private void CreateRepositories()
+        {
             this.CategoriaRepository = new CategoriaRepository(_context);
         }
-                    
 
         public int Complete()
         {
-            throw new NotImplementedException();
+            return _context.SaveChanges();
         }
 
         public void Dispose()
         {
-            //throw new NotImplementedException();
+            _context.Dispose();
         }
     }
 }

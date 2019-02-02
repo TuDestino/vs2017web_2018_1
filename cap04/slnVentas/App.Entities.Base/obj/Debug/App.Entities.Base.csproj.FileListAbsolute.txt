@@ -10,3 +10,15 @@ C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Entities.Ba
 C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Entities.Base\obj\Debug\App.Entities.Base.dll
 C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Entities.Base\obj\Debug\App.Entities.Base.pdb
 C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Entities.Base\obj\Debug\App.Entities.Base.csprojAssemblyReference.cache
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Entities.Base\bin\Debug\App.Entities.Base.dll.config
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Entities.Base\bin\Debug\App.Entities.Base.dll
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Entities.Base\bin\Debug\App.Entities.Base.pdb
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Entities.Base\bin\Debug\EntityFramework.dll
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Entities.Base\bin\Debug\EntityFramework.SqlServer.dll
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Entities.Base\bin\Debug\EntityFramework.xml
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Entities.Base\bin\Debug\EntityFramework.SqlServer.xml
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Entities.Base\obj\Debug\App.Entities.Base.csprojAssemblyReference.cache
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Entities.Base\obj\Debug\App.Entities.Base.csproj.CoreCompileInputs.cache
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Entities.Base\obj\Debug\App.Entities.Base.csproj.CopyComplete
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Entities.Base\obj\Debug\App.Entities.Base.dll
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Entities.Base\obj\Debug\App.Entities.Base.pdb

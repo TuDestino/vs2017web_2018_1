@@ -9,8 +9,7 @@ using System.Threading.Tasks;
 
 namespace App.Data.Repository
 {
-    public class GenericRepository<TEntity> : IGenericRepository<TEntity>
-            where TEntity : class
+    public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : class
     {
         protected readonly DbContext context;
 

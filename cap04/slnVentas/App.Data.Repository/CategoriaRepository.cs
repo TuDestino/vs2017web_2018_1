@@ -9,8 +9,7 @@ using System.Threading.Tasks;
 
 namespace App.Data.Repository
 {
-    public class CategoriaRepository: 
-                GenericRepository<Categoria>, ICategoriaRepository
+    public class CategoriaRepository: GenericRepository<Categoria>, ICategoriaRepository
     {
         public CategoriaRepository(DbContext context):base(context)
         {

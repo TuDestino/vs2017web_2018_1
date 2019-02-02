@@ -56,7 +56,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CategoriaTest.cs" />
+    <Compile Include="MarcaTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnidadMedidaTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

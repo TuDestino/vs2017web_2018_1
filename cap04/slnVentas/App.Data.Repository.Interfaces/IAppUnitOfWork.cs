@@ -9,6 +9,8 @@ namespace App.Data.Repository.Interfaces
     public interface IAppUnitOfWork:IDisposable
     {
         ICategoriaRepository CategoriaRepository { get; set; }
+        IMarcaRepository MarcaRepository { get; set; }
+        IUnidadMedidaRepository UnidadMedidaRepository { get; set; }
         int Complete();
     }
 }

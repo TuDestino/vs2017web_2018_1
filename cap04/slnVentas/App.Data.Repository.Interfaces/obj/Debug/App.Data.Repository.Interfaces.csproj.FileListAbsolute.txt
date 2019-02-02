@@ -8,3 +8,13 @@ C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Data.Reposi
 C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces\obj\Debug\App.Data.Repository.Interfaces.csproj.CopyComplete
 C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces\obj\Debug\App.Data.Repository.Interfaces.dll
 C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces\obj\Debug\App.Data.Repository.Interfaces.pdb
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces\bin\Debug\App.Data.Repository.Interfaces.dll
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces\bin\Debug\App.Data.Repository.Interfaces.pdb
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces\bin\Debug\App.Entities.Base.dll
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces\bin\Debug\App.Entities.Base.pdb
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces\bin\Debug\App.Entities.Base.dll.config
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces\obj\Debug\App.Data.Repository.Interfaces.csprojAssemblyReference.cache
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces\obj\Debug\App.Data.Repository.Interfaces.csproj.CoreCompileInputs.cache
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces\obj\Debug\App.Data.Repository.Interfaces.csproj.CopyComplete
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces\obj\Debug\App.Data.Repository.Interfaces.dll
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces\obj\Debug\App.Data.Repository.Interfaces.pdb

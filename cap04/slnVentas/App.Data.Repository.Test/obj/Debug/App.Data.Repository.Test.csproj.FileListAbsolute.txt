@@ -31,3 +31,36 @@ C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Data.Reposi
 C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\obj\Debug\App.Data.Repository.Test.csproj.CopyComplete
 C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\obj\Debug\App.Data.Repository.Test.dll
 C:\Users\VS 17\Documents\GitHub\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\obj\Debug\App.Data.Repository.Test.pdb
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\bin\Debug\App.Data.Repository.Test.dll.config
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\bin\Debug\App.Data.Repository.Test.dll
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\bin\Debug\App.Data.Repository.Test.pdb
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\bin\Debug\App.Data.DataBase.dll
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\bin\Debug\App.Data.Repository.dll
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\bin\Debug\App.Data.Repository.Interfaces.dll
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\bin\Debug\App.Entities.Base.dll
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\bin\Debug\EntityFramework.dll
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\bin\Debug\EntityFramework.SqlServer.dll
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\bin\Debug\App.Data.DataBase.pdb
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\bin\Debug\App.Data.DataBase.dll.config
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\bin\Debug\App.Data.Repository.Interfaces.pdb
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\bin\Debug\App.Data.Repository.pdb
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\bin\Debug\App.Data.Repository.dll.config
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\bin\Debug\App.Entities.Base.pdb
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\bin\Debug\App.Entities.Base.dll.config
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\bin\Debug\EntityFramework.xml
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\bin\Debug\EntityFramework.SqlServer.xml
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\obj\Debug\App.Data.Repository.Test.csprojAssemblyReference.cache
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\obj\Debug\App.Data.Repository.Test.csproj.CoreCompileInputs.cache
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\obj\Debug\App.Data.Repository.Test.csproj.CopyComplete
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\obj\Debug\App.Data.Repository.Test.dll
+D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Test\obj\Debug\App.Data.Repository.Test.pdb

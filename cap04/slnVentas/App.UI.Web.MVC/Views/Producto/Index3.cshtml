@@ -1,0 +1,75 @@
+﻿
+@model IEnumerable<App.Entities.Base.Producto>
+
+@{ ViewBag.Title = "Index";}
+
+<h2>Lista de Productos</h2>
+
+@using (Html.BeginForm())
+{
+    <label>Buscar por Nombre</label>
+    <input type="text" id="txtBuscarNombre" name="filterByName" />
+    <br />
+    <label>Buscar por Categoría</label>
+    @Html.DropDownList("filterByCategoria", new SelectList(ViewBag.Categorias, "CategoriaId", "Nombre")
+                                , "Todos", new { @class = "form-control" })
+    <br />
+    <label>Buscar por Marca</label>
+    @Html.DropDownList("filterByMarca", new SelectList(ViewBag.Marcas, "MarcaId", "Nombre")
+                                , "Todos", new { @class = "form-control" })
+    <button class="btn btn-primary" type="button" id="btnConsultar">Buscar</button>
+
+}
+
+<div id="resultado">
+
+</div>
+
+@section scriptsAdicionales{
+
+    <script src="~/Scripts/mustache.min.js"></script>
+    <script id="resultadoTable" type="x-tmpl-mustache">
+        <table class="table table-bordered table-hoover">
+            <thead>
+                <tr>
+                    <th>Codigo</th>
+                    <th>Nombre</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#Resultado}}
+                <tr>
+                    <td>{{ProductoCode}}</td>
+                    <td>{{Nombre}}</td>
+                </tr>
+                {{/Resultado}}
+            </tbody>
+        </table>
+    </script>
+    <script type="text/javascript">
+           $(document).ready(configInit);
+           function configInit() {
+               $("#btnConsultar").on("click", buscar);
+           }
+           function buscar() {
+               //Function jquery ajax
+               $.post('@Url.Action("Index3Buscar", "Producto")', {
+                   filterByName: $("#txtBuscarNombre").val(),
+                   filterByCategoria: $("#filterByCategoria").val(),
+                   filterByMarca: $("#filterByMarca").val()
+                   },
+                   function (response) {
+                       var template = $("#resultadoTable").html();
+                       Mustache.parse(template);
+                       var htmlRendered = Mustache.render(template,
+                           {
+                               Resultado: response
+                           }
+                       );
+                       $("#resultado").html(htmlRendered);
+                   }
+               )
+           }
+    </script>
+
+}

@@ -18,7 +18,7 @@ namespace App.UI.Web.MVC.Controllers.Mantenimientos
             categoriaService = new CategoriaService();
         }
 
-        // GET: Categoria
+       
         public ActionResult Index()
         {
             var model = categoriaService.GetAll("");

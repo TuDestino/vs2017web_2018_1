@@ -21,9 +21,12 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Inicio", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Acerca de", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contacto", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Categoría", "Index", "Categoria")</li>
+                    <li>@Html.ActionLink("Marca", "Index", "Marca")</li>
+                    <li>@Html.ActionLink("Unidad de Medida", "Index", "UnidadMedida")</li>
+                    <li>@Html.ActionLink("Productos", "Index", "Producto")</li>
+                    <li>@Html.ActionLink("Productos2", "Index2", "Producto")</li>
+                    <li>@Html.ActionLink("Productos3", "Index3", "Producto")</li>
                 </ul>
             </div>
         </div>
@@ -38,6 +41,6 @@
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
+    @RenderSection("scriptsAdicionales", required: false)
 </body>
 </html>

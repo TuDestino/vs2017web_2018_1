@@ -16,6 +16,7 @@ namespace App.Data.Repository
         public ICategoriaRepository CategoriaRepository { get; set; }
         public IMarcaRepository MarcaRepository { get; set; }
         public IUnidadMedidaRepository UnidadMedidaRepository { get; set; }
+        public IProductoRepository ProductoRepository { get; set; }
         public AppUnitOfWork()
         {
             _context = new AppModel();
@@ -33,6 +34,8 @@ namespace App.Data.Repository
             this.CategoriaRepository = new CategoriaRepository(_context);
             this.MarcaRepository = new MarcaRepository(_context);
             this.UnidadMedidaRepository = new UnidadMedidaRepository(_context);
+            this.ProductoRepository = new ProductoRepository(_context);
+
         }
 
         public int Complete()

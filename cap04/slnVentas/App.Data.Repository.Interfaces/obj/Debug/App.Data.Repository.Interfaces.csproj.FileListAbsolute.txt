@@ -18,3 +18,12 @@ D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces
 D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces\obj\Debug\App.Data.Repository.Interfaces.csproj.CopyComplete
 D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces\obj\Debug\App.Data.Repository.Interfaces.dll
 D:\GitHub\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces\obj\Debug\App.Data.Repository.Interfaces.pdb
+D:\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces\bin\Debug\App.Data.Repository.Interfaces.dll
+D:\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces\bin\Debug\App.Data.Repository.Interfaces.pdb
+D:\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces\bin\Debug\App.Entities.Base.dll
+D:\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces\bin\Debug\App.Entities.Base.pdb
+D:\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces\bin\Debug\App.Entities.Base.dll.config
+D:\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces\obj\Debug\App.Data.Repository.Interfaces.csprojResolveAssemblyReference.cache
+D:\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces\obj\Debug\App.Data.Repository.Interfaces.csproj.CoreCompileInputs.cache
+D:\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces\obj\Debug\App.Data.Repository.Interfaces.dll
+D:\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Data.Repository.Interfaces\obj\Debug\App.Data.Repository.Interfaces.pdb

@@ -5,6 +5,7 @@ namespace App.Entities.Base
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
+    using System.Web.Script.Serialization;
 
     [Table("Producto")]
     public partial class Producto
@@ -42,11 +43,11 @@ namespace App.Entities.Base
         public Guid? UsuarioModificador { get; set; }
 
         public DateTime? FechaModificacion { get; set; }
-
+        //[ScriptIgnore]
         public virtual Categoria Categoria { get; set; }
-
+        //[ScriptIgnore]
         public virtual Marca Marca { get; set; }
-
+        //[ScriptIgnore]
         public virtual UnidadMedida UnidadMedida { get; set; }
     }
 }

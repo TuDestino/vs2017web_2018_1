@@ -28,22 +28,28 @@ namespace App.Data.Repository
             return this.context.Set<TEntity>().Count();
         }
 
-        public IEnumerable<TEntity> GetAll(Expression<Func<TEntity, bool>> predicate = null)
+        public IEnumerable<TEntity> GetAll(Expression<Func<TEntity, bool>> predicate = null, List<string> includes = null)
 
         {
             var result = new List<TEntity>();
-            if (predicate != null)
+            IQueryable<TEntity> query = this.context.Set<TEntity>();
+
+            //Includes
+            if (includes != null)
             {
-                result = this.context.Set<TEntity>()
-                                .Where(predicate)
-                                .ToList();
-            }
-            else
-            {
-                result = this.context.Set<TEntity>().ToList();
+                foreach (var tableInclude in includes)
+                {
+                    query = query.Include(tableInclude);
+                }
             }
 
-            return result;
+            //where
+            if (predicate != null)
+            {
+                query = query.Where(predicate);
+            }
+
+            return query.ToList();
         }
 
         public TEntity GetById(int id)

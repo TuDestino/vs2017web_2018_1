@@ -1,6 +1,8 @@
 ﻿using App.Domain.Services;
 using App.Domain.Services.Interfaces;
 using App.Entities.Base;
+using App.UI.Web.MVC.Filters;
+using App.UI.Web.MVC.ViewModels;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -10,7 +12,7 @@ using System.Web.Mvc;
 
 namespace App.UI.Web.MVC.Controllers.Mantenimientos
 {
-    public class ProductoController : Controller
+    public class ProductoController : BaseController
     {
         private readonly IProductoService productoService = null;
         private readonly ICategoriaService categoriaService = null;
@@ -33,13 +35,32 @@ namespace App.UI.Web.MVC.Controllers.Mantenimientos
             return View(model);
         }
 
+        public ActionResult IndexVM(ProductoSearchViewModel model)
+        {
+            model.filterByName = string.IsNullOrWhiteSpace(model.filterByName) ? "" : model.filterByName.Trim();
+            model.filterByName = model.filterByName;
+            model.categorias = categoriaService.GetAll("").ToList();
+            model.marcas = marcaService.GetAll("").ToList();
+            model.productos = productoService.GetAll(model.filterByName, model.filterByCategoria, model.filterByMarca).ToList();
+            return View(model);
+        }
+
         // GET: Producto
         public ActionResult Index2(string filterByName, int? filterByCategoria, int? filterByMarca)
         {
-            filterByName = string.IsNullOrWhiteSpace(filterByName) ? "" : filterByName.Trim();
-            ViewBag.Categorias = categoriaService.GetAll("");
-            ViewBag.Marcas = marcaService.GetAll("");
-            //var model = productoService.GetAll(filterByName, filterByCategoria, filterByMarca);
+            try
+            {
+                filterByName = string.IsNullOrWhiteSpace(filterByName) ? "" : filterByName.Trim();
+                ViewBag.Categorias = categoriaService.GetAll("");
+                ViewBag.Marcas = marcaService.GetAll("");
+                //var model = productoService.GetAll(filterByName, filterByCategoria, filterByMarca);
+                throw new Exception("Lanzando un error simulado");
+            }
+            catch (Exception ex)
+            {
+                log.Error(ex);
+            }
+            
             return View();
         }
 
@@ -96,16 +117,22 @@ namespace App.UI.Web.MVC.Controllers.Mantenimientos
             return RedirectToAction("Index2");
         }
 
-
+        [HttpGet]
         public ActionResult Edit(int id)
         {
             var model = productoService.GetById(id);
+            ViewBag.Categorias = categoriaService.GetAll("");
+            ViewBag.Marcas = marcaService.GetAll("");
+            ViewBag.Estados = new List<int>() { 0, 1 };
             return View("Create", model);
         }
 
         [HttpPost]
         public ActionResult Edit(Producto model)
         {
+            model.UnidadMedidaID = 1;
+            model.UsuarioModificador = Guid.NewGuid();
+            model.FechaModificacion = DateTime.Now;
             var result = productoService.Save(model);
             return RedirectToAction("Index2");
         }

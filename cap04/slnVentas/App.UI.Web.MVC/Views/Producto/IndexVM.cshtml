@@ -1,0 +1,51 @@
+﻿
+@model App.UI.Web.MVC.ViewModels.ProductoSearchViewModel
+
+@{ ViewBag.Title = "Index";}
+
+<h2>Lista de Productos</h2>
+
+@using (Html.BeginForm())
+{
+    <label>Buscar por Nombre</label>
+    @Html.TextBoxFor(item => item.filterByName, new { @class = "form-control"})
+    <br />
+    <label>Buscar por Categoría</label>
+    @Html.DropDownListFor(item => item.filterByCategoria, new SelectList(Model.categorias, "CategoriaId", "Nombre")
+                                , "Todos", new { @class = "form-control" })
+    <br />
+    <label>Buscar por Marca</label>
+    @Html.DropDownListFor(item => item.filterByMarca, new SelectList(Model.marcas, "MarcaId", "Nombre")
+                                , "Todos", new { @class = "form-control" })
+    <button class="btn btn-primary">Buscar</button>
+
+}
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <td>Código</td>
+            <td>Nombre</td>
+            <td>Categoría</td>
+            <td>Marca</td>
+            <td>Precio Mayor</td>
+            <td>Precio Menor</td>
+            <td>Stock Actual</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.productos)
+        {
+            <tr>
+                <td>@item.ProductoCode</td>
+                <td>@item.Nombre</td>
+                <td>@item.Categoria.Nombre</td>
+                <td>@item.Marca.Nombre</td>
+                <td>@item.PrecioMayor</td>
+                <td>@item.PrecioMenor</td>
+                <td>@item.StockActual</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

@@ -1,6 +1,7 @@
 ﻿using App.Domain.Services;
 using App.Domain.Services.Interfaces;
 using App.Entities.Base;
+using App.UI.Web.MVC.ModelBinders;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -33,7 +34,7 @@ namespace App.UI.Web.MVC.Controllers.Mantenimientos
         }
 
         [HttpPost]
-        public ActionResult Create(Categoria model)
+        public ActionResult Create([ModelBinder(binderType:typeof(CategoriaBinder))]Categoria model)
         {
             var result = categoriaService.Save(model);
             return RedirectToAction("Index");

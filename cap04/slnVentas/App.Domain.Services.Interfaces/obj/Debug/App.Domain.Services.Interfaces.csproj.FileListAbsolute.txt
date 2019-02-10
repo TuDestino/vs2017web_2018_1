@@ -27,3 +27,13 @@ D:\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Domain.Services.Interfaces\obj\De
 D:\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Domain.Services.Interfaces\obj\Debug\App.Domain.Services.Interfaces.csproj.CoreCompileInputs.cache
 D:\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Domain.Services.Interfaces\obj\Debug\App.Domain.Services.Interfaces.dll
 D:\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Domain.Services.Interfaces\obj\Debug\App.Domain.Services.Interfaces.pdb
+C:\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Domain.Services.Interfaces\bin\Debug\App.Domain.Services.Interfaces.dll
+C:\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Domain.Services.Interfaces\bin\Debug\App.Domain.Services.Interfaces.pdb
+C:\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Domain.Services.Interfaces\bin\Debug\App.Entities.Base.dll
+C:\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Domain.Services.Interfaces\bin\Debug\App.Entities.Base.pdb
+C:\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Domain.Services.Interfaces\bin\Debug\App.Entities.Base.dll.config
+C:\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Domain.Services.Interfaces\obj\Debug\App.Domain.Services.Interfaces.csprojAssemblyReference.cache
+C:\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Domain.Services.Interfaces\obj\Debug\App.Domain.Services.Interfaces.csproj.CoreCompileInputs.cache
+C:\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Domain.Services.Interfaces\obj\Debug\App.Domain.Services.Interfaces.csproj.CopyComplete
+C:\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Domain.Services.Interfaces\obj\Debug\App.Domain.Services.Interfaces.dll
+C:\GITHUB\vs2017web_2018_1\cap04\slnVentas\App.Domain.Services.Interfaces\obj\Debug\App.Domain.Services.Interfaces.pdb

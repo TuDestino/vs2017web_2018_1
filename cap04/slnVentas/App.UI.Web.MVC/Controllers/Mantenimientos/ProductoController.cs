@@ -75,5 +75,41 @@ namespace App.UI.Web.MVC.Controllers.Mantenimientos
             return Json(model);
         }
 
+        [HttpGet]
+        public ActionResult Create()
+        {
+            Producto producto = new Producto();
+            ViewBag.Categorias = categoriaService.GetAll("");
+            ViewBag.Marcas = marcaService.GetAll("");
+            ViewBag.Estados = new List<int>() { 0, 1};
+            return View(producto);
+
+        }
+
+        [HttpPost]
+        public ActionResult Create(Producto model)
+        {
+            model.UnidadMedidaID = 1;
+            model.UsuarioCreador = Guid.NewGuid();
+            model.FechaCreacion = DateTime.Now;
+            var result = productoService.Save(model);
+            return RedirectToAction("Index2");
+        }
+
+
+        public ActionResult Edit(int id)
+        {
+            var model = productoService.GetById(id);
+            return View("Create", model);
+        }
+
+        [HttpPost]
+        public ActionResult Edit(Producto model)
+        {
+            var result = productoService.Save(model);
+            return RedirectToAction("Index2");
+        }
+
+
     }
 }

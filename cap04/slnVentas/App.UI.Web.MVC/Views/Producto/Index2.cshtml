@@ -4,7 +4,7 @@
 @{ ViewBag.Title = "Index";}
 
 <h2>Lista de Productos</h2>
-
+@Html.ActionLink("Nuevo Producto", "Create", "Producto", new { @class = "btn btn-success" })
 @using (Html.BeginForm())
 {
     <label>Buscar por Nombre</label>
@@ -26,7 +26,7 @@
 </div>
 
 @section scriptsAdicionales{
-       <script type="text/javascript">
+    <script type="text/javascript">
            $(document).ready(configInit);
            function configInit() {
                $("#btnConsultar").on("click", buscar);
@@ -43,6 +43,6 @@
                    }
                )
            }
-       </script>
-    
+    </script>
+
 }

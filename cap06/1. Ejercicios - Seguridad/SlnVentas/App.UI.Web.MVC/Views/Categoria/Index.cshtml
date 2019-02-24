@@ -1,0 +1,41 @@
+﻿@model IEnumerable<App.Entities.Base.Categoria>
+
+@{
+    ViewBag.Title = "Lista de Categorias";
+}
+
+<h2>Lista de Categorias</h2>
+
+@*Sin usar html helper*@
+@*<a class="btn btn-success btn-md" href="/Categoria/Create">Nueva Categoria</a>*@
+
+@*usando html helper*@
+@*@Html.ActionLink("Nueva Categoria", "Create","Categoria",new { @class= "btn btn-success btn-md" })*@
+
+<a href="#" onclick="app.helpers.showModal('CategoriaCreatePopup','@Url.Action("Create")')" class="btn btn-success btn-md">Nuevo</a>
+
+@using (Ajax.BeginForm("Buscar", "Categoria",
+    new AjaxOptions
+    {
+        HttpMethod = "POST",
+        InsertionMode = InsertionMode.Replace,
+        UpdateTargetId = "listado"
+    }
+    ))
+{
+    <p>
+        <input name="filtroPorNombre" />
+        <button type="submit" class="Buscar">Buscar</button>
+    </p>
+
+}
+
+
+<div id="listado">
+    @*@Html.Partial("_IndexListado", Model)*@
+    @*Comentamos, lo de arriba para hacer llamada innecesaria y llamamos directamente al PartialView*@
+    @Html.Action("Buscar")
+</div>
+
+
+@Modal.CreateModal("Crear categoria", "CategoriaCreatePopup")

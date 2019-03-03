@@ -1,0 +1,49 @@
+﻿@model IEnumerable<App.Entities.Base.Usuario>
+
+@{ ViewBag.Title = "Administrar Usuarios";}
+
+@*Sin usar html helper*@
+@*<a class="btn btn-success btn-md" href="/Categoria/Create">Nueva Categoria</a>*@
+
+@*usando html helper*@
+@*@Html.ActionLink("Nueva Categoria", "Create","Categoria",new { @class= "btn btn-success btn-md" })*@
+
+<a href="#" onclick="app.helpers.showModal('CategoriaCreatePopup','@Url.Action("Create")')" class="btn btn-success btn-md">Nuevo</a>
+
+<div class="box">
+    <div class="box-header">
+        <h3 class="box-title">Listado de Usuarios</h3>
+        <div class="box-tools">
+            <div class="input-group">
+                @using (Ajax.BeginForm("Buscar", "Home", new { Area = "AdminSeguridad"},
+                    new AjaxOptions
+                    {
+                        HttpMethod = "POST",
+                        InsertionMode = InsertionMode.Replace,
+                        UpdateTargetId = "listado"
+                    }
+                ))
+                {
+                    
+                        <input type="text" name="filtroPorNombre" class="form-control input-sm" style="width:150px;" placeholder="Search"/>
+                        <div class="input-group-btn">
+                            <button type="submit" class="btn btn-sm btn-default"><i class="fa fa-search"></i></button>
+                        </div>
+                        
+                    
+
+                }
+            </div>
+        </div>
+    </div>
+    <div class="box-body table-responsive no-padding">
+        <div id="listado">
+            @*@Html.Partial("_IndexListado", Model)*@
+            @*Comentamos, lo de arriba para hacer llamada innecesaria y llamamos directamente al PartialView*@
+            @Html.Action("Buscar")
+        </div>
+    </div>
+
+</div>
+
+@Modal.CreateModal("Crear categoria", "CategoriaCreatePopup")

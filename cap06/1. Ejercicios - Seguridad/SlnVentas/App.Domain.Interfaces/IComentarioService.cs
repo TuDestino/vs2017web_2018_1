@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 
 namespace App.Domain.Interfaces
 {
-    public interface ISeguridadService
+    public interface IComentarioService
     {
-        Usuario VerificarUsuario(string login, string password);
-        IEnumerable<Usuario> GetAll(string nombre);
+        IEnumerable<Comentario> GetAll();
+
+        void Guardar(Comentario entity);
     }
 }

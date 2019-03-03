@@ -26,6 +26,7 @@ namespace App.UI.Web.MVC.App_Start
             container.Register<IUnidadMedidaService, UnidadMedidaService>();
             container.Register<IProductoService, ProductoService>();
             container.Register<ISeguridadService, SeguridadService>();
+            container.Register<IComentarioService, ComentarioService>();
             //en que entorno se va ejecutar
             container.RegisterMvcControllers(Assembly.GetExecutingAssembly());
             //verificar

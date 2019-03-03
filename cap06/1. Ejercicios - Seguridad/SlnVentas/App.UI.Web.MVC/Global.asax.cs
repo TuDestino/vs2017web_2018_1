@@ -22,6 +22,9 @@ namespace App.UI.Web.MVC
             //Configurando el componente de Log4Net
             log4net.Config.XmlConfigurator.Configure();
 
+            //Configurando el AutoMapper
+            Mappers.MappingDTO();
+
             //Aplicando Inyeccion por dependencia
             DIConfig.ConfigureInjector();
 

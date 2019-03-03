@@ -1,0 +1,23 @@
+﻿
+
+@model IEnumerable<App.Entities.Base.Usuario>
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Nombres</th>
+            <th>Apellidos</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Nombres</td>
+                <td>@item.Apellidos</td>
+                <td>@item.Email</td>
+            </tr>
+        }
+    </tbody>
+</table>
